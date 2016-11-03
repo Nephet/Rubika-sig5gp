@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using CardBattle.Models;
 
 namespace CardBattle
 {
@@ -10,6 +10,9 @@ namespace CardBattle
     {
         static void Main(string[] args)
         {
+            var spadesAce = new Card(Values.Ace, Suit.Spades);
+            Console.WriteLine("I created a card : "+ spadesAce.ToString() );
+            Console.ReadLine();
         }
     }
 }
